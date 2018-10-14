@@ -20,7 +20,7 @@ Checkout the related projects
 * translation-fun realized with Kotlin
 * translation-fun realized with JavaRX
   
-To use the Google Translation Api you have to optain an ApiKey from Google Cloud Console. Using the Translation Api **is not free**, but the prices for your quota is very low. Anyway be aware of that!!
+To use the Google Translation Api you have to optain an ApiKey from Google Cloud Console. Using the Translation Api **is not free**, but the price for a single translation is very low. Anyway be aware of that!! You find mor information here -> https://cloud.google.com/translate/pricing
 * Register for Google Cloud Console
 * Search for the Translation Api
 * Activate the Api. You have to create or select an purchase account, where you setup your payment method.
