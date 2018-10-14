@@ -6,8 +6,7 @@ This project covers common Android features.
   * LiveData
 * Persistence via ROOM database framework
 * Multithreading and background tasks
-* Networking via Retrofit
-  * using Google Translation Api
+* Networking using Google Translation Api
 * Testing
   * JUnit
   * ROOM
