@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="0dp"
+  android:focusableInTouchMode="true"
+  android:orientation="vertical"
+  tools:context=".MainActivity">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_outer_search"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal">
+
+    <AutoCompleteTextView
+      android:id="@+id/input_search"
+      style="@style/Widget.AppCompat.EditText.Light"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:layout_margin="@dimen/margin_input_search"
+      android:padding="@dimen/padding_inner_search"
+      android:drawableEnd="@drawable/ic_search"
+      android:drawableRight="@drawable/ic_search"
+      android:hint="@string/search_input_hint"
+      android:imeOptions="actionSearch"
+      android:inputType="text"/>
+
+  </LinearLayout>
+
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+      <include layout="@layout/include_card_most_recent"/>
+      <include layout="@layout/include_card_most_viewed"/>
+    </LinearLayout>
+
+  </ScrollView>
+
+</LinearLayout>

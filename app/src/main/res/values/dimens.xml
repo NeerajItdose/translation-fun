@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="padding_outer_search">12dp</dimen>
+  <dimen name="padding_card">12dp</dimen>
+  <dimen name="padding_inner_search">12dp</dimen>
+  <dimen name="margin_card">12dp</dimen>
+  <dimen name="margin_input_search">0dp</dimen>
+  <dimen name="margin_card_item">8dp</dimen>
+  <dimen name="margin_card_btn">8dp</dimen>
+  <dimen name="padding_translation_container">8dp</dimen>
+  <dimen name="padding_translation_text">4dp</dimen>
+  <dimen name="padding_12">12dp</dimen>
+</resources>

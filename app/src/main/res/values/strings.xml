@@ -1,0 +1,21 @@
+<resources>
+  <string name="app_name">Translation Fun</string>
+  <string name="search_btn_cd">Button to start search</string>
+  <string name="search_input_hint">Enter Text To Translate</string>
+  <string name="btn_show_all_text">Show All</string>
+  <string name="label_most_recent">Most Recent Translations</string>
+  <string name="label_most_viewed">Most Viewed Translation</string>
+  <string name="source_lng_code">en</string>
+  <string name="target_lng_code">de</string>
+  <string name="snack_translation_item_removed">Translation removed.</string>
+  <string name="snack_undo">UNDO</string>
+  <string name="snack_translation_failed">Sorry. Could not translate text!</string>
+  <string name="dialog_title">Translation Result</string>
+  <string name="dialog_btn_save">Save</string>
+  <string name="dialog_btn_cancel">Cancel</string>
+  <string name="no_translations">No Translations Found</string>
+  <string name="search_input_translate">Translate…</string>
+  <string name="system_no_network">No active internet connection</string>
+  <string name="input_empty">Please input any text to translate</string>
+  <string name="dialog_btn_back">Back</string>
+</resources>
