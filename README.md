@@ -1,5 +1,5 @@
 # translation fun
-This project covers common Android features.
+This project is an example application to translate simple English phrases to German and uses common Android features.
 * MVVW architecture
   * ModelView
   * Repository
